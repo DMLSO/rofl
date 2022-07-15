@@ -721,7 +721,7 @@ coroutine.resume(coroutine.create(function()
     while task.wait() do
         if getgenv().autostart and getgenv().AutoFarm then
             if game.PlaceId == 8304191830 then
-                for i, v in pairs(game:GetService("Workspace")["_LOBBIES"].Story:GetDescendants()) do
+                for i, v in pairs(game:GetService("Workspace")["_LOBBIES6"].Story:GetDescendants()) do
                     if v.Name == "Owner" and v.Value == nil then
                         getgenv().door = v.Parent.Name
                         break
