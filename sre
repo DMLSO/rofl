@@ -261,7 +261,7 @@ function sex()
                     task.wait(0.1)
 
                 local args = {
-                    [1] = getgenv().door6, -- Lobby 
+                    [1] = getgenv().door, -- Lobby 
                     [2] = getgenv().level, -- World
                     [3] = true, -- Friends Only or not
                     [4] = getgenv().difficulty
@@ -739,7 +739,7 @@ coroutine.resume(coroutine.create(function()
                     task.wait(0.1)
 
                 local args = {
-                    [1] = getgenv().door6, -- Lobby 
+                    [1] = getgenv().door, -- Lobby 
                     [2] = getgenv().level, -- World
                     [3] = true, -- Friends Only or not
                     [4] = getgenv().difficulty
